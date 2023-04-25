@@ -1,41 +1,41 @@
 function logar(){
-    var equipe = document.getElementById('equipe').value;
-    var senha = document.getElementById('senha').value;
+    var equipe = document.getElementById('equipe').value.toUpperCase();
+    var senha = document.getElementById('senha').value.toUpperCase();
 
-    if(equipe == "Preta" && senha == "ALPHA"){
+    if(equipe == "PRETA" && senha == "ALPHA"){
         alert("Acesso Permitido");
         location.href = "matrix.html";
     }else
-    if(equipe == "Preta" && senha == "ADONAI"){
+    if(equipe == "PRETA" && senha == "ADONAI"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
     
     }else
-        if(equipe == "Laranja" && senha == "OMEGA"){
+        if(equipe == "LARANJA" && senha == "OMEGA"){
         alert("Acesso Permitido");
         location.href = "matrix.html";
     }else
-    if(equipe == "Laranja" && senha == "RAFAH"){
+    if(equipe == "LARANJA" && senha == "RAFAH"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
 
     }else
-    if(equipe == "Roxa" && senha == "JIREH"){
+    if(equipe == "ROXA" && senha == "JIREH"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
    
     }else
-    if(equipe == "Roxa" && senha == "BETA"){
+    if(equipe == "ROXA" && senha == "BETA"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
 
     }else
-    if(equipe == "Verde" && senha == "GAMA"){
+    if(equipe == "VERDE" && senha == "GAMA"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
 
     }else
-    if(equipe == "Verde" && senha == "ELOHIM"){
+    if(equipe == "VERDE" && senha == "ELOHIM"){
     alert("Acesso Permitido");
     location.href = "matrix.html";
 
